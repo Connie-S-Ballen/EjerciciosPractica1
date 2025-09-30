@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-   vector<string> msg {"Hello", "C++", "from", "VS Code", "and the C++ extension!"};
+   vector<string> msg {"Hola", "C++", "from", "VS Code", "y la extension C++!"};
 
    for (const string& word : msg)
    {
