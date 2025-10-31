@@ -5,12 +5,12 @@
 #include "CarritoCompras.h"
 using namespace std;
 
-class usuario{
+class Usuario{
     private:
         string nombre;
         vector<CarritoCompras> historial;
     public:
-        usuario(string nombre): nombre(nombre) {}
+        Usuario(string nombre): nombre(nombre) {}
 
         void guardarCompra(CarritoCompras carrito){
             historial.push_back(carrito);

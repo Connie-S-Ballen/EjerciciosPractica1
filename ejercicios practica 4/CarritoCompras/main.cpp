@@ -12,4 +12,11 @@ int main(){
     carrito.agregarItem(p1, 2);
     carrito.agregarItem(p3, 1);
     cout << "Total del carrito: $" << carrito.calcularTotal() << endl;
+
+    Usuario u("Nicolas");
+    u.guardarCompra(carrito);
+
+    cout << "Compra realizada por: " << u.getNombre() << endl;
+
+    return 0;
 }
