@@ -1,0 +1,5 @@
+PROJECT_NAME = "punto 4 parcial"
+
+INPUT = include src
+
+RECURSIVE = YES
